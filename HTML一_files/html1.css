@@ -1,0 +1,110 @@
+/*默认的样式*/
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,textarea{
+    margin: 0;
+    padding: 0;
+}
+/* 头部 */
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(51,51,51);
+}
+.header h1{
+    color: red;
+}
+.header li{
+    float: right;
+
+}
+.header a{
+    font-size: 4px;
+    display: block;
+    color: white;
+    width: 78px;
+    height: 60px;
+    text-decoration: none;
+    line-height: 60px;
+}
+.header h1{
+    float: left;
+    margin-left: 38px;
+    margin-top: 14px;
+}
+/*内容*/
+.content{
+    background-color: rgb(222,222,222);
+    padding: 20px;
+    overflow: hidden;
+
+}
+.block{
+    padding: 20px;
+    background-color: rgb(255,255,255);
+    border: solid 1px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+.block p{
+    text-indent: 2em;
+}
+.map{
+    border: solid 1px;
+   text-align: center;
+    width: 120px;
+    height: 120px;
+   padding: 10px;
+  margin: 10px;
+    float: left;
+}
+
+img{
+    width: 100px;
+    height: 80px;
+}
+table#tables{
+    width: 100%;
+}
+table#tables th{
+    background-color: rgb(51,51,51);
+}
+table#tables tr#count{
+    background-color: rgb(204,204,204);
+}
+
+button{
+    border: solid 1px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+    background-color: rgb(51,85,208);
+    border-radius: 10px;
+    width: 100%;
+}
+/*尾部*/
+.footer{
+    height: 70px;
+    background-color: rgb(0,0,0);
+    line-height: 70px;
+    text-align: center;
+    color: white;
+}
+/*右部*/
+.right{
+    width: 366px;
+    padding: 20px;
+    background-color: rgb(255,255,255);
+    border: solid 1px;
+    float: right;
+
+}/*左部*/
+.left{
+    float: left;
+    width: calc(100% - 366px - 60px );
+}/*自适应*/
+#wrap{
+    width: 100%;
+}
+
+
+
